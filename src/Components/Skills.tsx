@@ -1,5 +1,5 @@
-import { TablerIcon } from "@tabler/icons-react"
-export default () => {
+
+export default function() {
     return (
         <div className="pb-40 py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
