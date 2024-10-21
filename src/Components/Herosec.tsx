@@ -2,6 +2,7 @@
 import { MaskContainer } from "@/Components/UI/svg-mask-effect";
 import { image } from "framer-motion/client";
 import { img } from "framer-motion/m";
+import Image from "next/image";
 
 export function SVGMaskEffectDemo() {
   return (
@@ -9,10 +10,13 @@ export function SVGMaskEffectDemo() {
       
       <MaskContainer
         revealText={
-          // <p className="max-w-3xl mx-auto text-slate-900 text-center  text-5xl font-bold">
-          //   Why do we fall?.. So that we can learn to pick ourselves back up
-          // </p>
-          <img src="https://www.hdwallpapers.in/download/black__white_minimalist_optical_illusion_4k_hd_abstract-HD.jpg" className="h-full w-full "></img>
+          <Image
+          src="/back-g.jpg"
+          width={900}
+          height={900}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
         }
       >
         
