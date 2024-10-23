@@ -7,7 +7,7 @@ function Skills(){
                     I Am Skilled At.
                 </h3>
                  <p className="text-gray-600 mt-3">
-                 I'm Passionate about implementing and launching new projects developing my skills, making mistakes, and learning from them.I am highly passionate about successfully implementing and launching new projects, continuously developing my skills, embracing mistakes, and leveraging them as valuable learning opportunities.
+                 I'm Passionate about implementing and launching new projects developing my skills making mistakes and learning from them.I am highly passionate about successfully implementing and launching new projects continuously developing my skills embracing mistakes and leveraging them as valuable learning opportunities.
                 </p> 
             </div>
             <div className="mt-12 flex justify-center">
