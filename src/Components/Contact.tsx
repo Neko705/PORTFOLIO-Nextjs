@@ -1,5 +1,4 @@
-export default function () {
-
+function Contact(){
     const contactMethods = [
         {
             icon:
@@ -64,5 +63,7 @@ export default function () {
                 </div>
             </div>
         </main>
-    )
+    ) 
 }
+
+export default Contact;
