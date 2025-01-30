@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { FloatingDockDemo } from "@/Components/floatingnav";
+import Home from "./page";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <div className="relative w-full flex ">
-          
+          <Home />
         </div>
         {children}
       </body>
